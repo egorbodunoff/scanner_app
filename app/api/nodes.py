@@ -1,10 +1,7 @@
-import os
 from ctypes import *
-import logging
-
 from exceptions.camera_exceptions import NodeInitializationError, NodeValueError
+from logger_config import logger
 
-logger = logging.getLogger(__name__)
 
 class BaseNode:
     """

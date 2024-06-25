@@ -1,0 +1,124 @@
+	2024-06-24 20:44:26,884	INFO	logger_config	Opening camera
+	2024-06-24 20:44:27,365	INFO	logger_config	Успешное подключение камеры.
+	2024-06-24 20:44:27,366	INFO	logger_config	Инициализация узлов камеры
+	2024-06-24 20:44:27,366	DEBUG	logger_config	Инициализирован узел: ExposureTime
+	2024-06-24 20:44:27,366	DEBUG	logger_config	Инициализирован узел: AcquisitionMode
+	2024-06-24 20:44:27,367	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameCount
+	2024-06-24 20:44:27,367	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRate
+	2024-06-24 20:44:27,367	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRateEnable
+	2024-06-24 20:44:27,367	DEBUG	logger_config	Инициализирован узел: ExposureAuto
+	2024-06-24 20:44:27,368	DEBUG	logger_config	Инициализирован узел: ExposureMode
+	2024-06-24 20:44:27,368	DEBUG	logger_config	Инициализирован узел: GainRaw
+	2024-06-24 20:44:27,368	DEBUG	logger_config	Инициализирован узел: BlackLevel
+	2024-06-24 20:44:27,370	DEBUG	logger_config	Инициализирован узел: BlackLevelAuto
+	2024-06-24 20:44:27,370	DEBUG	logger_config	Инициализирован узел: Gamma
+	2024-06-24 20:44:27,371	DEBUG	logger_config	Инициализирован узел: Width
+	2024-06-24 20:44:27,372	DEBUG	logger_config	Инициализирован узел: Height
+	2024-06-24 20:44:27,372	DEBUG	logger_config	Инициализирован узел: OffsetX
+	2024-06-24 20:44:27,373	DEBUG	logger_config	Инициализирован узел: OffsetY
+	2024-06-24 20:44:27,373	INFO	logger_config	Узлы камеры успешно инициализированы
+	2024-06-24 20:44:27,373	INFO	logger_config	Камера успешно открыта
+	2024-06-24 20:45:36,478	INFO	logger_config	Opening camera
+	2024-06-24 20:45:36,820	INFO	logger_config	Успешное подключение камеры.
+	2024-06-24 20:45:36,821	INFO	logger_config	Инициализация узлов камеры
+	2024-06-24 20:45:36,822	DEBUG	logger_config	Инициализирован узел: ExposureTime
+	2024-06-24 20:45:36,822	DEBUG	logger_config	Инициализирован узел: AcquisitionMode
+	2024-06-24 20:45:36,822	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameCount
+	2024-06-24 20:45:36,822	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRate
+	2024-06-24 20:45:36,823	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRateEnable
+	2024-06-24 20:45:36,823	DEBUG	logger_config	Инициализирован узел: ExposureAuto
+	2024-06-24 20:45:36,823	DEBUG	logger_config	Инициализирован узел: ExposureMode
+	2024-06-24 20:45:36,823	DEBUG	logger_config	Инициализирован узел: GainRaw
+	2024-06-24 20:45:36,824	DEBUG	logger_config	Инициализирован узел: BlackLevel
+	2024-06-24 20:45:36,824	DEBUG	logger_config	Инициализирован узел: BlackLevelAuto
+	2024-06-24 20:45:36,824	DEBUG	logger_config	Инициализирован узел: Gamma
+	2024-06-24 20:45:36,825	DEBUG	logger_config	Инициализирован узел: Width
+	2024-06-24 20:45:36,825	DEBUG	logger_config	Инициализирован узел: Height
+	2024-06-24 20:45:36,826	DEBUG	logger_config	Инициализирован узел: OffsetX
+	2024-06-24 20:45:36,826	DEBUG	logger_config	Инициализирован узел: OffsetY
+	2024-06-24 20:45:36,826	INFO	logger_config	Узлы камеры успешно инициализированы
+	2024-06-24 20:45:36,827	INFO	logger_config	Камера успешно открыта
+	2024-06-24 20:45:38,073	INFO	logger_config	Opening camera
+	2024-06-24 20:45:38,466	INFO	logger_config	Успешное подключение камеры.
+	2024-06-24 20:45:38,466	INFO	logger_config	Инициализация узлов камеры
+	2024-06-24 20:45:38,466	DEBUG	logger_config	Инициализирован узел: ExposureTime
+	2024-06-24 20:45:38,466	DEBUG	logger_config	Инициализирован узел: AcquisitionMode
+	2024-06-24 20:45:38,467	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameCount
+	2024-06-24 20:45:38,467	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRate
+	2024-06-24 20:45:38,468	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRateEnable
+	2024-06-24 20:45:38,468	DEBUG	logger_config	Инициализирован узел: ExposureAuto
+	2024-06-24 20:45:38,468	DEBUG	logger_config	Инициализирован узел: ExposureMode
+	2024-06-24 20:45:38,469	DEBUG	logger_config	Инициализирован узел: GainRaw
+	2024-06-24 20:45:38,469	DEBUG	logger_config	Инициализирован узел: BlackLevel
+	2024-06-24 20:45:38,469	DEBUG	logger_config	Инициализирован узел: BlackLevelAuto
+	2024-06-24 20:45:38,470	DEBUG	logger_config	Инициализирован узел: Gamma
+	2024-06-24 20:45:38,470	DEBUG	logger_config	Инициализирован узел: Width
+	2024-06-24 20:45:38,470	DEBUG	logger_config	Инициализирован узел: Height
+	2024-06-24 20:45:38,471	DEBUG	logger_config	Инициализирован узел: OffsetX
+	2024-06-24 20:45:38,471	DEBUG	logger_config	Инициализирован узел: OffsetY
+	2024-06-24 20:45:38,471	INFO	logger_config	Узлы камеры успешно инициализированы
+	2024-06-24 20:45:38,471	INFO	logger_config	Камера успешно открыта
+	2024-06-24 20:46:59,174	INFO	logger_config	Opening camera
+	2024-06-24 20:47:01,703	INFO	logger_config	Opening camera
+	2024-06-24 20:47:03,490	INFO	logger_config	Opening camera
+	2024-06-24 20:47:08,125	INFO	logger_config	Opening camera
+	2024-06-24 20:47:18,506	INFO	logger_config	Opening camera
+	2024-06-24 20:47:18,939	INFO	logger_config	Успешное подключение камеры.
+	2024-06-24 20:47:18,940	INFO	logger_config	Инициализация узлов камеры
+	2024-06-24 20:47:18,941	DEBUG	logger_config	Инициализирован узел: ExposureTime
+	2024-06-24 20:47:18,943	DEBUG	logger_config	Инициализирован узел: AcquisitionMode
+	2024-06-24 20:47:18,944	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameCount
+	2024-06-24 20:47:18,945	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRate
+	2024-06-24 20:47:18,946	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRateEnable
+	2024-06-24 20:47:18,947	DEBUG	logger_config	Инициализирован узел: ExposureAuto
+	2024-06-24 20:47:18,948	DEBUG	logger_config	Инициализирован узел: ExposureMode
+	2024-06-24 20:47:18,949	DEBUG	logger_config	Инициализирован узел: GainRaw
+	2024-06-24 20:47:18,950	DEBUG	logger_config	Инициализирован узел: BlackLevel
+	2024-06-24 20:47:18,951	DEBUG	logger_config	Инициализирован узел: BlackLevelAuto
+	2024-06-24 20:47:18,952	DEBUG	logger_config	Инициализирован узел: Gamma
+	2024-06-24 20:47:18,952	DEBUG	logger_config	Инициализирован узел: Width
+	2024-06-24 20:47:18,953	DEBUG	logger_config	Инициализирован узел: Height
+	2024-06-24 20:47:18,953	DEBUG	logger_config	Инициализирован узел: OffsetX
+	2024-06-24 20:47:18,953	DEBUG	logger_config	Инициализирован узел: OffsetY
+	2024-06-24 20:47:18,954	INFO	logger_config	Узлы камеры успешно инициализированы
+	2024-06-24 20:47:18,954	INFO	logger_config	Камера успешно открыта
+	2024-06-24 20:47:22,677	INFO	logger_config	Opening camera
+	2024-06-24 20:47:23,034	INFO	logger_config	Успешное подключение камеры.
+	2024-06-24 20:47:23,035	INFO	logger_config	Инициализация узлов камеры
+	2024-06-24 20:47:23,035	DEBUG	logger_config	Инициализирован узел: ExposureTime
+	2024-06-24 20:47:23,036	DEBUG	logger_config	Инициализирован узел: AcquisitionMode
+	2024-06-24 20:47:23,036	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameCount
+	2024-06-24 20:47:23,036	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRate
+	2024-06-24 20:47:23,037	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRateEnable
+	2024-06-24 20:47:23,037	DEBUG	logger_config	Инициализирован узел: ExposureAuto
+	2024-06-24 20:47:23,038	DEBUG	logger_config	Инициализирован узел: ExposureMode
+	2024-06-24 20:47:23,038	DEBUG	logger_config	Инициализирован узел: GainRaw
+	2024-06-24 20:47:23,038	DEBUG	logger_config	Инициализирован узел: BlackLevel
+	2024-06-24 20:47:23,038	DEBUG	logger_config	Инициализирован узел: BlackLevelAuto
+	2024-06-24 20:47:23,039	DEBUG	logger_config	Инициализирован узел: Gamma
+	2024-06-24 20:47:23,039	DEBUG	logger_config	Инициализирован узел: Width
+	2024-06-24 20:47:23,040	DEBUG	logger_config	Инициализирован узел: Height
+	2024-06-24 20:47:23,040	DEBUG	logger_config	Инициализирован узел: OffsetX
+	2024-06-24 20:47:23,041	DEBUG	logger_config	Инициализирован узел: OffsetY
+	2024-06-24 20:47:23,041	INFO	logger_config	Узлы камеры успешно инициализированы
+	2024-06-24 20:47:23,041	INFO	logger_config	Камера успешно открыта
+	2024-06-24 20:47:24,670	INFO	logger_config	Opening camera
+	2024-06-24 20:47:25,069	INFO	logger_config	Успешное подключение камеры.
+	2024-06-24 20:47:25,070	INFO	logger_config	Инициализация узлов камеры
+	2024-06-24 20:47:25,070	DEBUG	logger_config	Инициализирован узел: ExposureTime
+	2024-06-24 20:47:25,070	DEBUG	logger_config	Инициализирован узел: AcquisitionMode
+	2024-06-24 20:47:25,071	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameCount
+	2024-06-24 20:47:25,071	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRate
+	2024-06-24 20:47:25,071	DEBUG	logger_config	Инициализирован узел: AcquisitionFrameRateEnable
+	2024-06-24 20:47:25,072	DEBUG	logger_config	Инициализирован узел: ExposureAuto
+	2024-06-24 20:47:25,072	DEBUG	logger_config	Инициализирован узел: ExposureMode
+	2024-06-24 20:47:25,072	DEBUG	logger_config	Инициализирован узел: GainRaw
+	2024-06-24 20:47:25,073	DEBUG	logger_config	Инициализирован узел: BlackLevel
+	2024-06-24 20:47:25,073	DEBUG	logger_config	Инициализирован узел: BlackLevelAuto
+	2024-06-24 20:47:25,073	DEBUG	logger_config	Инициализирован узел: Gamma
+	2024-06-24 20:47:25,074	DEBUG	logger_config	Инициализирован узел: Width
+	2024-06-24 20:47:25,074	DEBUG	logger_config	Инициализирован узел: Height
+	2024-06-24 20:47:25,074	DEBUG	logger_config	Инициализирован узел: OffsetX
+	2024-06-24 20:47:25,075	DEBUG	logger_config	Инициализирован узел: OffsetY
+	2024-06-24 20:47:25,075	INFO	logger_config	Узлы камеры успешно инициализированы
+	2024-06-24 20:47:25,075	INFO	logger_config	Камера успешно открыта

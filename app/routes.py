@@ -1,6 +1,6 @@
 from flask import current_app as app, render_template, jsonify, request
 from app.api.qr_api import read_from_port
-from app.api.camera_api import CameraAPI 
+from app.api.camera_api import *
 from app.image_processing.image_sharpness import calculate_sharpness
 import cv2
 
@@ -39,12 +39,12 @@ def register_routes():
 def get_parameters():
     try:
         with camera:
-            exposure_time = int(getattr(camera, 'ExposureTime', None))
-            gamma = float(getattr(camera, 'Gamma', None))
-            width = int(getattr(camera, 'Width', None))
-            height = int(getattr(camera, 'Height', None))
-            offset_x = int(getattr(camera, 'OffsetX', None))
-            offset_y = int(getattr(camera, 'OffsetY', None))
+            exposure_time = camera.ExposureTime
+            gamma = camera.Gamma
+            width = camera.Width
+            height = camera.Height
+            offset_x = camera.OffsetX
+            offset_y = camera.OffsetY
 
             parameters = {
                 'ExposureTime': exposure_time,

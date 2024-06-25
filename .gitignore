@@ -1,4 +1,4 @@
-cache.log
-*.so
-*.bmp
+# cache.log
+# *.so
+# *.bmp
 __pycache__

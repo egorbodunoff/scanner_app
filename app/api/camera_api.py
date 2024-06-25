@@ -1,54 +1,13 @@
-import sys
-import os
-import logging
 from ctypes import *
 import time
 import struct
 
-# exceptions_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'exceptions'))
-# sdk_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils'))
-
-# sys.path.append(exceptions_path)
-# sys.path.append(sdk_path)
-
-
 from exceptions.camera_exceptions import *
 from api.nodes import * 
+from logger_config import logger
 from utils.MVSDK import *
 from utils.ImageConvert import *
 
-
-# Функция для создания базового логгера
-def get_base_logger():
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)
-    logger.propagate = False
-
-    if logger.hasHandlers():
-        logger.handlers.clear()
-
-    file_handler = logging.FileHandler('cache.log', mode='w')
-    file_handler.setLevel(logging.DEBUG)
-    logger.addHandler(file_handler)
-
-    file_formatter = '\t%(asctime)s\t%(levelname)s\t%(name)s\t%(message)s'
-    file_handler.setFormatter(logging.Formatter(file_formatter))
-
-    return logger
-
-# Функция для создания обработчика потока
-def get_stream_handler():
-    stream_handler = logging.StreamHandler()
-    stream_handler.setLevel(logging.DEBUG)
-
-    stdout_formatter = 'stdout_log\t%(asctime)s\t%(levelname)s\t%(name)s\t%(message)s'
-    stream_handler.setFormatter(logging.Formatter(stdout_formatter))
-
-    return stream_handler
-
-# Настройка логгера
-
-# logger.addHandler(get_stream_handler())
 
 # Определение структур для работы с изображениями
 class BITMAPFILEHEADER(Structure):
@@ -123,7 +82,6 @@ class CameraAPI:
         self._height_node = None
         self._offsetX_node = None
         self._offsetY_node = None
-        self.log = get_base_logger()
 
     def __enter__(self):
         """
@@ -602,12 +560,13 @@ class CameraAPI:
         return True
 
 
-# if __name__ == '__main__':
-#     c = CameraAPI()
-#     with c as camera:
-#         if camera.camera:
-#             print('Camera is connected.')
-#             print(getattr(camera, 'ExposureTime', None))
+if __name__ == '__main__':
+    c = CameraAPI()
+    with c as camera:
+        if camera.camera:
+            print('Camera is connected.')
+            print(getattr(camera, 'ExposureTime', None))
+            camera.ExposureTime = 12000
 #             # camera.ExposureTime = 9900
 #             # camera.setROI(1900, 2000, 100, 100)
 #             # print(camera.getROI())
